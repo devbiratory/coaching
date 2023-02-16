@@ -491,7 +491,7 @@ strong {
 }
 
 .hero-title {
-	font-size: 44px;
+	font-size: 39px;
 }
 
 .hero h2 {
@@ -798,7 +798,8 @@ strong {
   box-shadow: none;
   border: 2px solid var(--border-color);
   color: var(--p-color);
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
+  margin-bottom: 5px;
   padding-top: 13px;
   padding-bottom: 13px;
   outline: none;
