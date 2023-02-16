@@ -29,15 +29,13 @@ import { TermsComponent } from './components/terms/terms.component';
     CommonModule,
     FormsModule,
     BrowserAnimationsModule, // required animations module
-    ToastrModule.forRoot(), 
+    ToastrModule.forRoot(),
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    NgbModule, // for firestore
+    NgbModule // for firestore
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
-
-
+export class AppModule {}
