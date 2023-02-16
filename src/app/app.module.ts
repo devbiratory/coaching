@@ -39,3 +39,5 @@ import { TermsComponent } from './components/terms/terms.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
