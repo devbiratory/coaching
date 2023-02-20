@@ -501,7 +501,7 @@ strong {
 .hero-text {
   position: relative;
   z-index: 22;
-  top: 70px;
+  top: -40px;
 }
 
 .hero-image-wrap {
@@ -511,7 +511,8 @@ strong {
   height: 350px;
   position: absolute;
   z-index: 22;
-  top: -50px;
+  /* top: -50px; */
+  top: 0;
   right: 0;
   left: 0;
   margin: auto;
